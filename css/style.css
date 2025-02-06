@@ -258,7 +258,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background-color: "#00008B";
+    background: url(../img/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
