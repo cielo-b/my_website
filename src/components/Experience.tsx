@@ -21,11 +21,11 @@ const TimelineItem: React.FC<{ experience: ExperienceType; index: number; inView
         transition={{ duration: 0.3 }}
       >
         <motion.div 
-          className="relative p-8 card glass bg-white/90 backdrop-blur-lg border border-white/50 group hover:shadow-colored-lg transition-all duration-500"
+          className="relative p-8 card glass bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg border border-white/50 dark:border-gray-700/50 group hover:shadow-colored-lg transition-all duration-500"
           whileHover={{ y: -5 }}
         >
           {/* Background Gradient */}
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-50/50 to-secondary-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary-50/50 to-secondary-50/50 dark:from-primary-900/20 dark:to-secondary-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl" />
           
           {/* Date Badge */}
           <motion.div 
@@ -42,7 +42,7 @@ const TimelineItem: React.FC<{ experience: ExperienceType; index: number; inView
           <div className="relative z-10 space-y-4 mt-4">
             {/* Job Title */}
             <motion.h3 
-              className="heading-tertiary text-gray-900 group-hover:text-primary-700 transition-colors duration-300"
+              className="heading-tertiary text-gray-900 dark:text-white group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors duration-300"
               whileHover={{ x: isLeft ? -5 : 5 }}
               transition={{ duration: 0.3 }}
             >
@@ -51,7 +51,7 @@ const TimelineItem: React.FC<{ experience: ExperienceType; index: number; inView
 
             {/* Company */}
             <motion.h4 
-              className="text-lg font-semibold text-secondary-600 group-hover:text-secondary-700 transition-colors duration-300"
+              className="text-lg font-semibold text-secondary-600 dark:text-secondary-400 group-hover:text-secondary-700 dark:group-hover:text-secondary-300 transition-colors duration-300"
               whileHover={{ x: isLeft ? -3 : 3 }}
               transition={{ duration: 0.3 }}
             >
@@ -60,7 +60,7 @@ const TimelineItem: React.FC<{ experience: ExperienceType; index: number; inView
 
             {/* Description */}
             <motion.p 
-              className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300"
+              className="text-gray-600 dark:text-gray-300 leading-relaxed group-hover:text-gray-700 dark:group-hover:text-gray-200 transition-colors duration-300"
               initial={{ opacity: 0.8 }}
               whileHover={{ opacity: 1 }}
             >
@@ -70,7 +70,7 @@ const TimelineItem: React.FC<{ experience: ExperienceType; index: number; inView
 
           {/* Decorative Corner */}
           <motion.div 
-            className={`absolute ${isLeft ? 'bottom-4 left-4' : 'bottom-4 right-4'} w-8 h-8 bg-gradient-to-br from-accent-400 to-accent-600 rounded-lg opacity-20 group-hover:opacity-40 transition-opacity duration-500`}
+            className={`absolute ${isLeft ? 'bottom-4 left-4' : 'bottom-4 right-4'} w-8 h-8 bg-gradient-to-br from-accent-400 to-accent-600 dark:from-accent-500 dark:to-accent-700 rounded-lg opacity-20 group-hover:opacity-40 transition-opacity duration-500`}
             animate={{ rotate: 45 }}
             transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
           />
@@ -119,11 +119,11 @@ const Experience: React.FC = () => {
   };
 
   return (
-    <section id="experience" className="section-padding bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section id="experience" className="section-padding bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-primary-100 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-float" />
-        <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-secondary-100 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-float" style={{ animationDelay: '3s' }} />
+        <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-primary-100 dark:bg-primary-900/20 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-float" />
+        <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-secondary-100 dark:bg-secondary-900/20 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-float" style={{ animationDelay: '3s' }} />
       </div>
 
       <div className="container-custom relative z-10" ref={ref}>
@@ -140,13 +140,13 @@ const Experience: React.FC = () => {
             animate={{ opacity: inView ? 1 : 0, scale: inView ? 1 : 0.8 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <span className="px-4 py-2 bg-primary-50 text-primary-600 rounded-full text-sm font-semibold border border-primary-100">
+            <span className="px-4 py-2 bg-primary-50 dark:bg-primary-900/50 text-primary-600 dark:text-primary-300 rounded-full text-sm font-semibold border border-primary-100 dark:border-primary-800">
               My Resume
             </span>
           </motion.div>
 
           <motion.h2 
-            className="heading-secondary text-gray-900 mb-6"
+            className="heading-secondary text-gray-900 dark:text-white mb-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -157,7 +157,7 @@ const Experience: React.FC = () => {
           </motion.h2>
 
           <motion.p 
-            className="text-lead text-gray-600"
+            className="text-lead text-gray-600 dark:text-gray-300"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -198,15 +198,15 @@ const Experience: React.FC = () => {
           transition={{ duration: 0.8, delay: 1.5 }}
         >
           <motion.div 
-            className="inline-flex flex-col sm:flex-row items-center gap-6 p-8 glass bg-gradient-to-r from-primary-50 to-secondary-50 rounded-3xl border border-white/50"
+            className="inline-flex flex-col sm:flex-row items-center gap-6 p-8 glass bg-gradient-to-r from-primary-50 to-secondary-50 dark:from-gray-800 dark:to-gray-900 rounded-3xl border border-white/50 dark:border-gray-700/50"
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
             <div className="text-center sm:text-left">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                 Want to work together?
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-gray-300">
                 Let's discuss how my experience can contribute to your next project.
               </p>
             </div>
@@ -227,7 +227,7 @@ const Experience: React.FC = () => {
               </motion.button>
               
               <motion.button
-                className="btn-outline border-primary-200 text-primary-600 hover:bg-primary-600"
+                className="btn-outline border-primary-200 dark:border-primary-700 text-primary-600 dark:text-primary-300 hover:bg-primary-600 dark:hover:bg-primary-700"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={downloadResume}

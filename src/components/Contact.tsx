@@ -474,7 +474,7 @@ const Contact: React.FC = () => {
               </form>
 
               {/* EmailJS Setup Instructions */}
-              <motion.div 
+              {/* <motion.div 
                 className="mt-6 p-4 bg-yellow-500/20 border border-yellow-400/30 rounded-2xl text-yellow-300"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -489,7 +489,7 @@ const Contact: React.FC = () => {
                     </p>
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </motion.div>
           </motion.div>
         </div>
