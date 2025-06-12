@@ -1,0 +1,200 @@
+                                                       Curriculum Vitae
+
+===============================================================================
+                               IRUMVA Regis Dieu Merci
+                              Full Stack Developer
+===============================================================================
+
+Contact Information:
+-------------------
+Names: IRUMVA Regis Dieu Merci
+Phone: +250790539402
+Email: irumvaregisdmc@gmail.com
+LinkedIn: https://www.linkedin.com/in/d-regis-9aa310255
+Thecn: https://www.thecn.com/IR295
+Location: Kigali/Rwanda
+Personal Website: https://d-regis-merci.vercel.app
+Github: https://www.github.com/cielo-b
+
+Summary:
+--------
+Hard-working software developer with 3+ years of experience in full-stack development. 
+Specialized in backend development using Java, Node.js, and Python, with expertise in 
+DevOps practices and modern web technologies. Prepared to learn new techniques and 
+enhance skills. Ready to assist teams in developing scalable and robust applications.
+
+Work Experience:
+----------------
+
+SDK and Laravel Developer
+Snack Sprint, Rwanda
+May 2025 - Present
+• Working on innovative vending machine solutions using Java SDK for hardware integration
+• Developing robust backend systems using Laravel framework
+• Focused on creating seamless user experiences and reliable payment processing systems
+• Implementing IoT integration for smart vending machine operations
+
+Lead Backend Developer
+Rwanda TVET Board (RTB), Rwanda  
+August 2024 - Present
+• Leading backend development and DevOps operations for E-Learning and MIS systems
+• Maintaining and improving existing systems using Spring Boot (Java)
+• Managing production servers and database optimization
+• Implementing load balancing and system performance improvements
+
+Backend and Mobile App Developer
+Aguura, Rwanda
+January 2024 - Present
+• Developing high-performance backend APIs using Nest.js
+• Building cross-platform mobile applications with React Native
+• Crafting seamless user interfaces with optimal performance
+• Collaborating with cross-functional teams for product development
+
+Frontend Developer
+Insight Nexus, Rwanda
+January 2025 - May 2025
+• Developing portfolio platform frontend using modern React.js
+• Implementing responsive and interactive user interfaces
+• Collaborating with design teams to match visual design intent
+• Optimizing web applications for performance and accessibility
+
+Backend Developer
+Rangurura Project, Rwanda
+July 2023 - January 2024
+• Developed scalable backend solutions using Java (Spring Boot) and Node.js
+• Architected robust server-side solutions for enterprise applications
+• Integrated databases and ensured efficient server communication
+• Collaborated with frontend developers for seamless application integration
+
+Backend Developer
+Vista Innovations, Rwanda
+May 2022 - January 2023
+• Developed scalable and efficient server-side solutions using Nest.js and Node.js
+• Implemented RESTful APIs and microservices architecture
+• Optimized database queries and application performance
+• Participated in code reviews and agile development processes
+
+Frontend Developer
+RODI Rwanda, Rwanda
+May 2022 - December 2022
+• Specialized in crafting web user interfaces using React.js
+• Ensured optimal performance and seamless user experience
+• Implemented responsive design principles for cross-device compatibility
+• Collaborated with backend developers for API integration
+
+Education:
+----------
+
+Rwanda Coding Academy
+Software Programming and Embedded Systems (SPE)
+September 2022 - Present
+• Comprehensive training in software development and embedded systems
+• Focus on modern programming languages and frameworks
+• Practical projects in full-stack development and IoT
+
+Groupe Scolaire Officielle de Butare (Indatwa n'Inkesha)
+Ordinary Level
+January 2019 - August 2022
+• Completed secondary education with focus on sciences
+• Strong foundation in mathematics and physics
+
+Ecole Etoile Rubengera
+Primary School
+2012 - 2018
+• Completed primary education with excellent academic performance
+
+Technical Skills:
+-----------------
+
+Programming Languages:
+• Java (Spring Boot, Spring Framework)
+• JavaScript/TypeScript (Node.js, Nest.js, React.js, Next.js)
+• Python (Django, Flask, FastAPI)
+• PHP (Laravel)
+• Go (Gin, Fiber)
+• C/C++
+• C# (.NET)
+• Kotlin (Android Development)
+• Flutter (Cross-platform mobile development)
+
+Web Technologies:
+• Frontend: React.js, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap
+• Backend: Node.js, Express.js, Nest.js, Spring Boot, Django, Laravel
+• API Development: RESTful APIs, GraphQL, Microservices
+
+Database Management:
+• SQL: PostgreSQL, MySQL, SQLite
+• NoSQL: MongoDB, Redis
+• Database Design and Optimization
+• Query Optimization and Performance Tuning
+
+DevOps & Tools:
+• Version Control: Git, GitHub, GitLab
+• CI/CD: Jenkins, GitHub Actions, GitLab CI/CD
+• Containerization: Docker
+• Cloud Platforms: AWS, Digital Ocean
+• Server Management and Deployment
+• Load Balancing and Performance Optimization
+
+Mobile Development:
+• React Native (Cross-platform)
+• Kotlin (Android Native)
+• Flutter (Cross-platform)
+
+Other Technologies:
+• Embedded Systems Programming
+• IoT Development
+• Hardware Integration (Java SDK)
+• Payment Gateway Integration
+• Real-time Applications (WebSockets)
+
+Soft Skills:
+------------
+• Strong Communication Skills
+• Team Collaboration and Leadership
+• Problem Solving and Analytical Thinking
+• Agile/Scrum Methodologies
+• Project Management
+• Mentoring and Knowledge Sharing
+• Adaptability and Continuous Learning
+• Time Management and Punctuality
+
+Tools & Platforms:
+------------------
+• IDEs: IntelliJ IDEA, Visual Studio Code, Eclipse
+• Communication: Slack, Microsoft Teams, Discord
+• Project Management: Jira, Trello, Asana
+• Design Tools: Figma, Adobe XD
+• Testing: Jest, JUnit, Postman
+• Monitoring: New Relic, DataDog
+
+Languages:
+----------
+• Kinyarwanda - Native
+• English - Fluent
+• French - Basic
+• Kiswahili - Basic
+
+Achievements:
+-------------
+• Successfully led multiple full-stack development projects
+• Implemented scalable solutions serving thousands of users
+• Contributed to open-source projects
+• Active participant in competitive programming
+• Mentored junior developers in modern web technologies
+• Improved system performance by 40% through optimization techniques
+
+Interests:
+----------
+• Competitive Programming
+• Open Source Contribution
+• Technology Innovation
+• IoT and Embedded Systems
+• Mobile App Development
+• Cloud Computing and DevOps
+
+===============================================================================
+                               IRUMVA Regis Dieu Merci
+                      Email: irumvaregisdmc@gmail.com
+                         Phone: +250790539402
+=============================================================================== 
