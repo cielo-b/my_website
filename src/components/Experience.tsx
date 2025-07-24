@@ -110,8 +110,8 @@ const Experience: React.FC = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.txt';
-    link.download = 'IRUMVA_Regis_Dieu_Merci_Resume.txt';
+    link.href = '/resume.pdf';
+    link.download = 'IRUMVA_Regis_Dieu_Merci_Resume.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
