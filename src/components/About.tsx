@@ -103,7 +103,7 @@ const About: React.FC = () => {
               >
                 <div className="relative overflow-hidden rounded-2xl">
                   <motion.img 
-                    src="/images/mine.jpeg" 
+                    src="/images/mine.jpg" 
                     alt="D Regis Irumva" 
                     className="w-full h-auto object-cover"
                     whileHover={{ scale: 1.1 }}
